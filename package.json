@@ -1,0 +1,23 @@
+{
+  "name": "vesting-contract",
+  "version": "1.0.0",
+  "repository": "git@github.com:Watr-Protocol/vesting-contract.git",
+  "author": "Niall Moore <niall@watr.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.5",
+    "@openzeppelin/contracts": "^4.8.1",
+    "chai": "^4.3.7",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^5.4",
+    "hardhat": "^2.12.7",
+    "solidity-coverage": "^0.8.2"
+  },
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "coverage": "hardhat coverage"
+  }
+}
