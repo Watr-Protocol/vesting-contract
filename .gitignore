@@ -4,3 +4,6 @@ artifacts
 coverage
 coverage.json
 typechain-types
+bin
+.vscode
+.DS_store

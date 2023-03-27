@@ -29,7 +29,7 @@ contract TokenVesting is Ownable, ReentrancyGuard {
         require(sent, "failed to withdraw funds");
     }
 
-    function checkWithdrawable() view private returns (uint256) {
+    function checkWithdrawable() view public returns (uint256) {
         uint256 balance = address(this).balance;
         return balance - locked();
     }
