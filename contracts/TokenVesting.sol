@@ -1,11 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity  ^0.8.17;
 
-import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/utils/math/Math.sol";
 
-contract TokenVesting is Ownable, ReentrancyGuard {
+contract TokenVesting is ReentrancyGuard {
     address payee;
     uint256 genesis_timestamp;
     uint256 epoch_length;
